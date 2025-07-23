@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f7fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 360px;
+    max-width: 95%;
+    transition: box-shadow 0.3s ease;
+}
+
+.form-container:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.form-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #333333;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.form-container input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 12px 0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 15px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    background-color: #fafafa;
+}
+
+.form-container input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.2);
+    background-color: #ffffff;
+}
+
+.form-container button {
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 12px rgba(0, 91, 187, 0.2);
+}
+
+.form-container p {
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+    color: #666;
+}
+
+.form-container a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 500;
+}
+
+.form-container a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.success-message {
+    text-align: center;
+    color: #28a745;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.error-message {
+    text-align: center;
+    color: #dc3545;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+
+.error-message {
+    text-align: center;
+    color: #dc3545;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.success-message {
+    text-align: center;
+    color: #28a745;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
